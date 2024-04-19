@@ -1,0 +1,80 @@
+#head{
+    display: flex;
+    gap:20px;
+    background: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#img{
+    border: 3px solid white;
+    position: relative;
+    top:15px;
+    left:7px;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+a{
+    color: navy; 
+    text-decoration: none; 
+}
+  
+a:hover{
+    color: blue; 
+}
+
+#body{
+    display: flex;
+    border: 3px solid white;
+}
+
+#menu{
+   background: url(bg.avif);
+   background-repeat: no-repeat;
+    background-size: cover;
+   width:230px;
+   height: 537px;
+   border: 5px solid black;
+}
+
+#menu1{
+    padding-top: 50px;
+}
+
+#list{
+list-style: none;
+font-size: 30px;
+}
+
+#ContentArea{
+    background: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1290px;
+   height:453px;
+   border: 3px solid black;
+}
+   
+
+#footer{
+    background: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.foottext{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
